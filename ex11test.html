@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .cb {
+        /* 안 적어도 됨. 기본값 */
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        box-sizing: content-box;
+
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- box-sizing
+          요소의 크기를 화면에 표시하는 방식
+      1) content-box : content 영역만을 기준으로 한다 (기본값)
+      2) border-box : content+padding+border 영역까지를 기준
+  -->
+    <div class="cb"></div>
+  </body>
+</html>

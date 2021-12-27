@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 150px;
+        height: 150px;
+      }
+
+      #static {
+        background-color: rgb(162, 0, 255);
+
+        /* 정적인, position의 기본속성
+            위치속성이 비활성화 (top, bottom, left, right -> 비활성화*/
+
+        top: 20px;
+        left: 20px;
+      }
+
+      #relative {
+        background-color: cornflowerblue;
+
+        /* 상대적인 
+        위치속성이 활성화
+        기준 : 본인이 원래 있던 위치
+        */
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+
+      #absolute {
+        background-color: rgb(209, 142, 218);
+
+        position: absolute;
+        /* 절대적인
+        위치속성 활성화
+        기준 : position 속성이 static이 아닌 부모
+        모든 부모가 다 static이라면 or 부모가 없다면
+        최상위 태그를 기준으로 
+        */
+
+        top: 20px;
+        left: 20px;
+      }
+
+      #fixed {
+        background-color: turquoise;
+        /* ficxed 고정된
+        위치속성 활성화
+        부모, 스크롤 전부 무시하고 기준은 최상위 태그
+         */
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="static"></div>
+    <div id="relative"></div>
+    <div id="absolute"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div id="fixed"></div>
+  </body>
+</html>
